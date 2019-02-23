@@ -1,0 +1,27 @@
+1.搭建maven快启动Webapp项目
++1 pom文件jar包配置
+2.加入Spring框架，维护bean
+3.加入springmvc框架，进行资源访问
+4.加入mybatis框架，操作mysql表中数据
+5.注意web.xml、applicationContext.xml、spring-mvc.xml以及mybatis.xml文件的配置
+6.2-23重点学习spring中的事务管理
+
+
+web.xml 配置
+注册自定义servlet
+注册全局字符编码过滤器filter(针对get请求无效)
+注册dispatcherservlet
+注册默认欢迎页
+配置spring监听器（web监听器&&context-param）
+
+spring 配置
+扫描除controller注解外的类，并实例化
+扫描properties文件，读取配置
+配置数据库连接池
+
+
+springmvc 配置
+注册handlerAdapter,handlerMapping,viewResolver
+扫描controller注解的类，并实例化
+标识js,css,jpg等文件为静态文件，不处理该请求
+注册消息转换器，配置json,xml的支持

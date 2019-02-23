@@ -40,7 +40,6 @@
       <param-value>classpath:spring-mvc.xml</param-value>
     </init-param>
     <!--值为正整数或者0时，表示容器在应用启动时就加载并初始化这个servlet-->
-    <!--如果该元素的值为负数或者没有设置，则容器会当Servlet被请求时再加载-->
     <load-on-startup>1</load-on-startup>
   </servlet>
   <servlet-mapping>
