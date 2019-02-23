@@ -23,4 +23,18 @@ public class UserController {
     public @ResponseBody Employee getOneEmployee(@PathVariable(value = "id") Integer id) {
        return userService.getUser(id);
     }
+    @RequestMapping(value = "/find/{id}",method = RequestMethod.GET)
+    public @ResponseBody Employee findOneEmployee(@PathVariable(value = "id") Integer id) {
+        return userService.findUser(id);
+    }
+    @RequestMapping(value = "/delete/{id}",method = RequestMethod.GET)
+    public @ResponseBody String deleteOneEmployee(@PathVariable(value = "id") Integer id) {
+        Integer result = userService.deleteUser(id);
+        if(result>0) {
+            return "statusCode:200,statusText:成功";
+        }else{
+            return "statusCode:400,statusText:失败";
+        }
+
+    }
 }

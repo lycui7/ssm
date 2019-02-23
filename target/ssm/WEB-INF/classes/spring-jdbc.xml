@@ -28,9 +28,15 @@
                 <value>classpath:albert/cui/mapper/*Mapper.xml</value>
             </list>
         </property>
+       <!-- <property name="configLocation" value="classpath:mybatis-config.xml"/>-->
+    </bean>
+    <!-- mybatis spring sqlSessionTemplate,使用时直接让spring注入即可 -->
+    <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
+        <constructor-arg ref="sqlSessionFactory"/>
     </bean>
     <!--采用MapperScannerConfigurer，它将会查找类路径下的映射器并自动将它们创建成MapperFactoryBean-->
     <!-- DAO接口所在包名，Spring会自动查找其下的类 ,包下的类需要使用@MapperScan注解,否则容器注入会失败 -->
+    <!--事实证明不需要@MapperScan注解-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="albert.cui.mapper"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
@@ -40,19 +46,19 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
     <!--配置事务的传播行为-->
-    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+    <!--<tx:advice id="txAdvice" transaction-manager="transactionManager">
         <tx:attributes>
             <tx:method name="get*" read-only="true"/>
             <tx:method name="find*" read-only="true"/>
             <tx:method name="select*" read-only="true"/>
             <tx:method name="*" propagation="REQUIRED"/>
         </tx:attributes>
-    </tx:advice>
+    </tx:advice>-->
     <!--配置事务的切入点-->
-    <aop:config>
+    <!--<aop:config>
         <aop:pointcut id="pointCut" expression="execution(* albert.cui.service.*.*(..))"/>
         <aop:advisor advice-ref="txAdvice" pointcut-ref="pointCut"/>
-    </aop:config>
+    </aop:config>-->
     <!--启用事务注解，开始声明式事务-->
     <tx:annotation-driven transaction-manager="transactionManager"/>
 </beans>

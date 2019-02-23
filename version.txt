@@ -8,9 +8,16 @@
 7.使用mybatis逆向工程生成mybatis映射文件及实体
 
 重点内容：spring与mybatis的三种整合方法
-    ①
-    ②
-    ③
+    ①使用MapperScannerConfigurer,它会查照类路径下的映射器并将它们创建成MapperFactoryBean
+    ②使用实现了SqlSession接口的实现类SqlSessionTemplate(需要注入sqlSessionFactory),DAO层
+    需要使用@repository {配置文件中注册SqlSessionTemplate}
+    ③使用继承抽象类SqlSessionDaoSupport,通过set方法注入sqlSessionFactory,Dao层同样需要@repository
+
+问题1：为什么*mapper的接口不用@repository注解，却可以注入接口的实体类呢？
+因为在spring的配置文件中，我们配置了MapperScannerConfigurer,它会将指定包下的
+所有Mapper接口生成实体类，交给Spring去管理
+问题2： 为什么SqlSessionFactoryBean的configLocation（mybatis的配置文件）可以不用配置？
+Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
 
 web.xml 配置
 注册自定义servlet
@@ -31,3 +38,7 @@ springmvc 配置
 标识js,css,jpg等文件为静态文件，不处理该请求
 注册消息转换器，配置json,xml的支持
 
+即将加入的功能
+①权限控制 shiro
+②邮件  javax.mail
+③定时任务 Quartz

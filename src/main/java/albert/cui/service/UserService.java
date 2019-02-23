@@ -8,4 +8,6 @@ import albert.cui.entity.Employee;
  */
 public interface  UserService {
     Employee getUser(Integer userId);
+    Employee findUser(Integer userId);
+    Integer deleteUser(Integer userId);
 }

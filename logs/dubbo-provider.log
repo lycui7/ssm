@@ -22,3 +22,186 @@
 2019-02-23 19:01:32.658 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
 2019-02-23 19:01:32.658 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
 2019-02-23 19:01:32.659 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
+2019-02-23 23:48:55.817 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-23 23:48:55.919 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-23 23:48:56.006 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-23 23:48:56.206 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-23 23:49:07.408 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-23 23:49:07.413 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
+2019-02-23 23:49:07.423 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7fffc09c] will be managed by Spring
+2019-02-23 23:49:07.428 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-23 23:49:07.450 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 2(Integer)
+2019-02-23 23:49:07.462 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 0
+2019-02-23 23:49:07.462 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
+2019-02-23 23:49:07.463 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
+2019-02-23 23:49:07.463 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
+2019-02-23 23:49:07.463 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
+2019-02-23 23:49:10.330 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-23 23:49:10.331 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
+2019-02-23 23:49:10.332 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7fffc09c] will be managed by Spring
+2019-02-23 23:49:10.332 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-23 23:49:10.333 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-23 23:49:10.338 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-23 23:49:10.339 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
+2019-02-23 23:49:10.339 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
+2019-02-23 23:49:10.339 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
+2019-02-23 23:49:10.340 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
+2019-02-23 23:57:10.157 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-23 23:57:10.261 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-23 23:57:10.350 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-23 23:57:10.539 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-23 23:57:18.726 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-23 23:57:18.731 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
+2019-02-23 23:57:18.741 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@2838dbea] will be managed by Spring
+2019-02-23 23:57:18.746 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-23 23:57:18.768 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-23 23:57:18.782 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-23 23:57:18.782 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
+2019-02-23 23:57:18.782 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
+2019-02-23 23:57:18.783 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
+2019-02-23 23:57:18.783 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
+2019-02-24 00:06:30.054 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 00:06:30.163 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 00:06:30.267 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 00:06:30.447 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 00:26:39.994 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 00:35:06.344 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 00:35:06.451 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 00:35:06.639 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:497 -Parsed configuration file: 'class path resource [mybatis-config.xml]'
+2019-02-24 00:35:06.759 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 00:35:16.017 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 00:35:16.024 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
+2019-02-24 00:35:16.027 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
+2019-02-24 00:35:16.028 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
+2019-02-24 00:35:16.028 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
+2019-02-24 00:37:42.294 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 00:37:42.294 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
+2019-02-24 00:37:42.305 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@2ce65f1e] will be managed by Spring
+2019-02-24 00:37:42.311 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 00:37:42.333 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 00:37:42.348 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
+2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
+2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
+2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
+2019-02-24 00:37:48.683 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 00:37:48.684 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
+2019-02-24 00:37:48.684 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@2ce65f1e] will be managed by Spring
+2019-02-24 00:37:48.685 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 00:37:48.686 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 00:37:48.687 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 00:37:48.687 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
+2019-02-24 00:37:48.688 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
+2019-02-24 00:37:48.688 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
+2019-02-24 00:37:48.689 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
+2019-02-24 00:39:14.684 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 00:39:14.789 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 00:39:14.896 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 00:39:15.078 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 00:39:22.968 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 00:39:22.973 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
+2019-02-24 00:39:22.983 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@6c60e68a] will be managed by Spring
+2019-02-24 00:39:22.988 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 00:39:23.009 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 00:39:23.022 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
+2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
+2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
+2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
+2019-02-24 00:53:50.214 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:14:46.759 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:14:46.874 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:14:46.981 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:14:47.167 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:15:49.486 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:15:49.598 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:15:49.710 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:15:49.908 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:17:39.680 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:17:39.784 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:17:39.890 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:17:40.077 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:17:40.120 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 01:17:48.909 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:17:48.914 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
+2019-02-24 01:17:48.923 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@139d5492] will be managed by Spring
+2019-02-24 01:17:48.930 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeTemp.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 01:17:48.951 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeTemp.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:17:48.966 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeTemp.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 01:17:48.967 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
+2019-02-24 01:17:48.967 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
+2019-02-24 01:17:48.968 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
+2019-02-24 01:17:48.968 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
+2019-02-24 01:48:44.049 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:48:44.169 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:48:44.199 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:48:44.412 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:48:44.461 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 01:49:01.707 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:49:01.713 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
+2019-02-24 01:49:01.721 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bf3fd43] will be managed by Spring
+2019-02-24 01:49:01.726 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
+2019-02-24 01:49:01.749 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:49:01.757 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
+2019-02-24 01:49:01.792 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
+2019-02-24 01:49:01.792 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
+2019-02-24 01:51:36.592 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:51:36.593 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
+2019-02-24 01:51:36.593 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bf3fd43] will be managed by Spring
+2019-02-24 01:51:36.594 DEBUG [http-bio-8080-exec-9]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
+2019-02-24 01:51:36.594 DEBUG [http-bio-8080-exec-9]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:51:36.594 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
+2019-02-24 01:51:36.595 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
+2019-02-24 01:51:36.595 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
+2019-02-24 01:51:42.556 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:51:42.557 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
+2019-02-24 01:51:42.558 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bf3fd43] will be managed by Spring
+2019-02-24 01:51:42.558 DEBUG [http-bio-8080-exec-10]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
+2019-02-24 01:51:42.559 DEBUG [http-bio-8080-exec-10]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:51:42.560 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
+2019-02-24 01:51:42.560 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
+2019-02-24 01:51:42.560 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
+2019-02-24 01:53:39.731 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:53:39.836 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:53:39.865 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:53:40.058 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:53:40.103 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 01:53:50.680 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:53:50.685 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
+2019-02-24 01:53:50.693 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@8888df4] will be managed by Spring
+2019-02-24 01:53:50.698 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
+2019-02-24 01:53:50.719 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:53:50.721 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -<==    Updates: 1
+2019-02-24 01:53:50.721 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
+2019-02-24 01:53:50.721 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
+2019-02-24 01:53:50.722 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
+2019-02-24 01:53:50.722 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
+2019-02-24 01:55:42.947 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:55:43.050 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:55:43.079 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:55:43.275 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:55:43.317 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 01:55:50.976 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:55:50.982 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
+2019-02-24 01:55:50.989 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@45dca5ce] will be managed by Spring
+2019-02-24 01:55:50.994 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
+2019-02-24 01:55:51.018 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:55:51.019 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -<==    Updates: 1
+2019-02-24 01:55:51.019 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
+2019-02-24 01:55:51.020 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
+2019-02-24 01:55:51.020 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
+2019-02-24 01:58:03.562 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 01:58:03.669 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 01:58:03.697 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 01:58:03.899 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 01:58:03.943 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 01:58:21.452 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 01:58:21.458 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
+2019-02-24 01:58:21.466 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@33aa21fe] will be managed by Spring
+2019-02-24 01:58:21.470 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
+2019-02-24 01:58:21.491 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 01:58:21.492 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -<==    Updates: 1
+2019-02-24 01:58:21.492 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
+2019-02-24 01:58:21.499 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
+2019-02-24 01:58:21.499 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
+2019-02-24 01:58:21.500 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
