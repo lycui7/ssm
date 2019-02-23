@@ -8,16 +8,8 @@
         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
     <!--context,tx,aop -->
-<!--扫描service注解的类-->
-    <context:component-scan base-package="albert.cui.service"/>
-<!--读取配置文件-->
-    <context:property-placeholder location="classpath:jdbc.properties"/>
-    <!--配置druid数据源-->
-   <!-- <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init" destroy-method="close">
-    <property name="username" value="${db.username}"/>
-    <property name="password" value="${db.password}"/>
-    <property name="driverClassName" value="${db.driverClassName}"/>
-    <property name="url" value="${db.url}"/>
-    </bean>-->
-
+    <!--扫描service注解的类-->
+    <context:component-scan base-package="albert.cui">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
 </beans>

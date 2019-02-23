@@ -5,10 +5,15 @@
 <web-app>
   <display-name>SSM</display-name>
   <description>spring+springmvc+mybatis</description>
-  <!--配置sping监听器-->
+  <!--加载spring配置文件-->
   <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:applicationContext.xml</param-value>
+    <param-value>classpath:applicationContext.xml,classpath:spring-jdbc.xml</param-value>
+  </context-param>
+  <!--加载logback配置文件-->
+  <context-param>
+    <param-name>logbackConfigLocation</param-name>
+    <param-value>classpath:logback.xml</param-value>
   </context-param>
   <!--字符编码过滤器-->
   <filter>
@@ -30,6 +35,10 @@
   <!--context加载时的监听器-->
   <listener>
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+  <!--logback监听器-->
+  <listener>
+    <listener-class>ch.qos.logback.ext.spring.web.LogbackConfigListener</listener-class>
   </listener>
   <!--springmvc分发servlet-->
   <servlet>
