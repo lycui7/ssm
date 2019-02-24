@@ -18,6 +18,16 @@
 所有Mapper接口生成实体类，交给Spring去管理
 问题2： 为什么SqlSessionFactoryBean的configLocation（mybatis的配置文件）可以不用配置？
 Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+问题3： @Autowired和@Resource的区别
+@Autowired 按照类型byType装配依赖对象，如果运行null，则需要设置required=false
+            如果想通过byName装配，则搭配@Qualifier一起使用
+@Resource 默认按照byName装配依赖对象
+          同时指定name和type，则匹配唯一bean,找不到则抛出异常
+          指定name，则查找名称匹配的bean,找不到则抛出异常
+          指定type,则按照类型匹配，找不到或者多个都会抛出异常
+          都没有指定，则按照byName方式进行装配（字段上则采用字段名称，setter方法上则采用属性名称），
+            没有匹配到则回退为一个原始类型进行匹配，匹配到则自动装配
+另外：@PathVariable @RequestParam 中的name和value等价，两个写一个即可（不可以都写）
 
 web.xml 配置
 注册自定义servlet
@@ -25,6 +35,7 @@ web.xml 配置
 注册dispatcherservlet
 注册默认欢迎页
 配置spring监听器（web监听器&&context-param）
+配置logback监听器
 
 spring 配置
 扫描除controller注解外的类，并实例化
@@ -40,5 +51,16 @@ springmvc 配置
 
 即将加入的功能
 ①权限控制 shiro
-②邮件  javax.mail
+②邮件  javax.mail（√）
 ③定时任务 Quartz
+
+2-24
+使用spring-test进行单元测试
+①测试bean
+②测试mvc
+发送邮件
+①普通文本
+②html
+③freemarker模板
+④velocity模板
+

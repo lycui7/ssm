@@ -21,6 +21,7 @@
     <aspectj.version>1.8.10</aspectj.version>
     <jackson.version>2.9.1</jackson.version>
     <logback.version>1.2.3</logback.version>
+    <spring.test.version>4.2.4.RELEASE</spring.test.version>
   </properties>
 
   <dependencies>
@@ -28,7 +29,14 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <!--spring与junit的整合测试包-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-test</artifactId>
+      <version>${spring.framework.version}</version>
       <scope>test</scope>
     </dependency>
     <!--添加commons依赖包-->
@@ -140,6 +148,29 @@
       <groupId>org.logback-extensions</groupId>
       <artifactId>logback-ext-spring</artifactId>
       <version>0.1.1</version>
+    </dependency>
+    <!--JavaMail-->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+    <!--FreeMarker模板引擎-->
+    <dependency>
+      <groupId>org.freemarker</groupId>
+      <artifactId>freemarker</artifactId>
+      <version>2.3.23</version>
+    </dependency>
+    <!--velocity模板引擎-->
+    <dependency>
+      <groupId>org.apache.velocity</groupId>
+      <artifactId>velocity</artifactId>
+      <version>1.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.velocity</groupId>
+      <artifactId>velocity-tools</artifactId>
+      <version>2.0</version>
     </dependency>
   </dependencies>
   <build>

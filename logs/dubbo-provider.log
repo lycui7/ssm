@@ -205,3 +205,195 @@
 2019-02-24 01:58:21.499 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
 2019-02-24 01:58:21.499 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
 2019-02-24 01:58:21.500 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
+2019-02-24 16:08:49.505 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:08:49.676 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:08:49.701 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:08:49.923 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:08:49.968 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:08:50.566 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:10:00.677 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:10:00.822 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:10:00.845 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:10:01.034 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:10:01.082 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:10:01.653 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:15:23.061 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:15:23.205 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:15:23.229 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:15:23.410 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:15:23.452 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:15:24.021 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:16:00.330 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:16:00.477 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:16:00.503 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:16:00.685 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:16:00.725 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:16:01.259 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:22:47.759 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:22:47.901 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:22:47.925 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:22:48.120 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:22:48.168 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:22:48.750 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:23:15.824 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:23:15.978 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:23:16.003 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:23:16.218 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:23:16.265 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:23:16.919 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:33:35.005 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:33:35.170 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:33:35.199 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:33:35.399 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:33:35.447 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:33:36.037 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:35:01.501 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:35:01.665 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:35:01.692 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:35:01.938 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:35:01.986 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:35:02.601 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:39:11.265 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:39:11.416 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:39:11.442 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:39:11.631 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:39:11.677 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:39:12.264 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:39:41.721 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:39:41.875 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:39:41.900 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:39:42.094 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:39:42.142 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:40:45.981 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:40:56.300 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:40:56.468 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:40:56.497 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:40:56.715 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:40:56.766 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:40:58.466 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:47:13.668 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:47:13.807 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:47:13.846 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:47:14.043 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:47:14.084 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:47:28.196 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 16:47:28.201 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365cf533] was not registered for synchronization because synchronization is not active
+2019-02-24 16:47:28.359 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c4a9e00] will not be managed by Spring
+2019-02-24 16:47:28.365 DEBUG [http-bio-8080-exec-6]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 16:47:28.387 DEBUG [http-bio-8080-exec-6]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 16:47:28.402 DEBUG [http-bio-8080-exec-6]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 16:47:28.403 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365cf533]
+2019-02-24 16:48:17.088 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:48:17.286 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:48:17.321 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:48:17.502 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:48:17.546 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:48:18.140 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:48:45.372 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:48:45.521 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:48:45.544 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:48:45.741 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:48:45.791 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:48:46.357 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:49:25.164 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:49:25.316 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:49:25.341 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:49:25.550 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:49:25.596 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:50:49.125 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:51:16.434 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:51:16.571 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:51:16.594 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:51:16.775 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:51:16.818 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:51:17.381 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:53:48.065 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:53:48.227 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:53:48.251 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:53:48.423 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:53:48.471 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:53:49.026 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:55:35.449 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:55:35.586 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:55:35.608 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:55:35.785 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:55:35.825 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:55:36.343 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 16:55:36.347 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ee9fc96] was not registered for synchronization because synchronization is not active
+2019-02-24 16:55:36.503 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@20e9df17] will not be managed by Spring
+2019-02-24 16:55:36.507 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 16:55:36.529 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 16:55:36.542 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 16:55:36.543 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ee9fc96]
+2019-02-24 16:55:36.611 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:57:01.307 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:57:01.447 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:57:01.471 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:57:01.645 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:57:01.685 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:57:02.193 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 16:57:02.197 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4177da8a] was not registered for synchronization because synchronization is not active
+2019-02-24 16:57:02.351 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c2cffbe] will not be managed by Spring
+2019-02-24 16:57:02.355 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 16:57:02.377 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 16:57:02.390 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 16:57:02.391 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4177da8a]
+2019-02-24 16:57:02.457 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 16:58:10.208 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 16:58:10.364 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 16:58:10.390 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 16:58:10.573 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 16:58:10.621 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 16:58:11.175 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 16:58:11.179 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@323b722b] was not registered for synchronization because synchronization is not active
+2019-02-24 16:58:11.338 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@60248dc5] will not be managed by Spring
+2019-02-24 16:58:11.342 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 16:58:11.379 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 16:58:11.392 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 16:58:11.392 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@323b722b]
+2019-02-24 17:00:15.919 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 17:00:25.083 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 17:00:25.224 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 17:00:25.247 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 17:00:25.428 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 17:00:25.472 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 17:00:26.007 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
+2019-02-24 17:00:26.011 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d8fe9b5] was not registered for synchronization because synchronization is not active
+2019-02-24 17:00:26.157 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@501cd445] will not be managed by Spring
+2019-02-24 17:00:26.161 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
+2019-02-24 17:00:26.182 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
+2019-02-24 17:00:26.208 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
+2019-02-24 17:00:26.209 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d8fe9b5]
+2019-02-24 17:00:26.268 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 17:10:26.351 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 17:10:26.510 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 17:10:26.536 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 17:10:26.754 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 17:10:26.802 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 17:11:07.772 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 17:12:56.737 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 17:12:56.873 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 17:12:56.895 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 17:12:57.060 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 17:12:57.100 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 17:12:57.652 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-24 22:56:27.368 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 22:56:27.477 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 22:56:27.508 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 22:56:27.709 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 22:56:27.752 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 23:02:41.895 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 23:02:42.022 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 23:02:42.056 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 23:02:42.262 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 23:02:42.304 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 23:05:12.761 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 23:05:12.872 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 23:05:12.904 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 23:05:13.108 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 23:05:13.151 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-24 23:57:51.655 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-24 23:57:51.778 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-24 23:57:51.810 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-24 23:57:52.002 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-24 23:57:52.044 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
