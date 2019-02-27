@@ -11,7 +11,8 @@
         <param-value>
             classpath:applicationContext.xml,
             classpath:spring-jdbc.xml,
-            classpath:spring-mail.xml
+            classpath:spring-mail.xml,
+            classpath:spring-quartz.xml
         </param-value>
     </context-param>
     <!--加载logback配置文件-->

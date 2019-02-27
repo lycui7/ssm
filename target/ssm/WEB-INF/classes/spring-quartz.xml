@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+    <!--Quartz任务调度框架整合-->
+    <!--将需要定时执行的任务注入Job中-->
+    <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="quartzRecord"/>
+        <!--任务中需要执行的方法-->
+        <property name="targetMethod" value="execute"/>
+        <!--任务依次执行，不并发-->
+        <property name="concurrent" value="false"/>
+    </bean>
+    <!--定义trigger触发器-->
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <!--触发器触发的额作业-->
+        <property name="jobDetail" ref="jobDetail"/>
+        <!--cron表达式定义执行周期-->
+        <property name="cronExpression" value="0/5 * * * * ? "/>
+    </bean>
+    <!--总管理类(调度器)，如果将lazy-init=false,则容器启动就会执行调度程序-->
+    <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" lazy-init="false" autowire="no">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger"/>
+            </list>
+        </property>
+    </bean>
+</beans>

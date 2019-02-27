@@ -1,399 +1,223 @@
-2019-02-23 18:55:41.450 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-23 18:55:41.558 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-23 18:55:41.644 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-23 18:55:41.818 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-23 18:56:40.289 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-23 18:56:40.294 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ff6e608]
-2019-02-23 18:56:40.304 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@41e55757] will be managed by Spring
-2019-02-23 18:56:40.308 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-23 18:56:40.330 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-23 18:56:40.345 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-23 18:56:40.346 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ff6e608]
-2019-02-23 18:56:40.346 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ff6e608]
-2019-02-23 18:56:40.347 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ff6e608]
-2019-02-23 18:56:40.347 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ff6e608]
-2019-02-23 19:01:32.656 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-23 19:01:32.656 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
-2019-02-23 19:01:32.656 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@41e55757] will be managed by Spring
-2019-02-23 19:01:32.656 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-23 19:01:32.657 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 2(Integer)
-2019-02-23 19:01:32.658 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 0
-2019-02-23 19:01:32.658 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
-2019-02-23 19:01:32.658 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
-2019-02-23 19:01:32.658 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
-2019-02-23 19:01:32.659 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@404d4704]
-2019-02-23 23:48:55.817 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-23 23:48:55.919 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-23 23:48:56.006 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-23 23:48:56.206 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-23 23:49:07.408 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-23 23:49:07.413 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
-2019-02-23 23:49:07.423 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7fffc09c] will be managed by Spring
-2019-02-23 23:49:07.428 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-23 23:49:07.450 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 2(Integer)
-2019-02-23 23:49:07.462 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 0
-2019-02-23 23:49:07.462 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
-2019-02-23 23:49:07.463 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
-2019-02-23 23:49:07.463 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
-2019-02-23 23:49:07.463 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7d14cb82]
-2019-02-23 23:49:10.330 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-23 23:49:10.331 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
-2019-02-23 23:49:10.332 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7fffc09c] will be managed by Spring
-2019-02-23 23:49:10.332 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-23 23:49:10.333 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-23 23:49:10.338 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-23 23:49:10.339 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
-2019-02-23 23:49:10.339 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
-2019-02-23 23:49:10.339 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
-2019-02-23 23:49:10.340 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6aad3163]
-2019-02-23 23:57:10.157 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-23 23:57:10.261 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-23 23:57:10.350 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-23 23:57:10.539 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-23 23:57:18.726 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-23 23:57:18.731 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
-2019-02-23 23:57:18.741 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@2838dbea] will be managed by Spring
-2019-02-23 23:57:18.746 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-23 23:57:18.768 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-23 23:57:18.782 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-23 23:57:18.782 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
-2019-02-23 23:57:18.782 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
-2019-02-23 23:57:18.783 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
-2019-02-23 23:57:18.783 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@47f82150]
-2019-02-24 00:06:30.054 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 00:06:30.163 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 00:06:30.267 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 00:06:30.447 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 00:26:39.994 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 00:35:06.344 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 00:35:06.451 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 00:35:06.639 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:497 -Parsed configuration file: 'class path resource [mybatis-config.xml]'
-2019-02-24 00:35:06.759 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 00:35:16.017 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 00:35:16.024 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
-2019-02-24 00:35:16.027 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
-2019-02-24 00:35:16.028 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
-2019-02-24 00:35:16.028 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5631f30b]
-2019-02-24 00:37:42.294 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 00:37:42.294 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
-2019-02-24 00:37:42.305 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@2ce65f1e] will be managed by Spring
-2019-02-24 00:37:42.311 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 00:37:42.333 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 00:37:42.348 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
-2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
-2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
-2019-02-24 00:37:42.349 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6508af0f]
-2019-02-24 00:37:48.683 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 00:37:48.684 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
-2019-02-24 00:37:48.684 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@2ce65f1e] will be managed by Spring
-2019-02-24 00:37:48.685 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 00:37:48.686 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 00:37:48.687 DEBUG [http-bio-8080-exec-8]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 00:37:48.687 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
-2019-02-24 00:37:48.688 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
-2019-02-24 00:37:48.688 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
-2019-02-24 00:37:48.689 DEBUG [http-bio-8080-exec-8]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7f8c4768]
-2019-02-24 00:39:14.684 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 00:39:14.789 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 00:39:14.896 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 00:39:15.078 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 00:39:22.968 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 00:39:22.973 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
-2019-02-24 00:39:22.983 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@6c60e68a] will be managed by Spring
-2019-02-24 00:39:22.988 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 00:39:23.009 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 00:39:23.022 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
-2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
-2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
-2019-02-24 00:39:23.024 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6ea6b623]
-2019-02-24 00:53:50.214 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:14:46.759 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:14:46.874 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:14:46.981 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:14:47.167 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:15:49.486 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:15:49.598 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:15:49.710 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:15:49.908 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:17:39.680 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:17:39.784 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:17:39.890 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:17:40.077 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:17:40.120 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 01:17:48.909 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:17:48.914 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
-2019-02-24 01:17:48.923 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@139d5492] will be managed by Spring
-2019-02-24 01:17:48.930 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeTemp.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 01:17:48.951 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeTemp.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:17:48.966 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeTemp.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 01:17:48.967 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
-2019-02-24 01:17:48.967 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
-2019-02-24 01:17:48.968 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
-2019-02-24 01:17:48.968 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@563ac60f]
-2019-02-24 01:48:44.049 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:48:44.169 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:48:44.199 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:48:44.412 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:48:44.461 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 01:49:01.707 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:49:01.713 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
-2019-02-24 01:49:01.721 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bf3fd43] will be managed by Spring
-2019-02-24 01:49:01.726 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
-2019-02-24 01:49:01.749 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:49:01.757 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
-2019-02-24 01:49:01.792 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
-2019-02-24 01:49:01.792 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@662a6d5b]
-2019-02-24 01:51:36.592 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:51:36.593 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
-2019-02-24 01:51:36.593 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bf3fd43] will be managed by Spring
-2019-02-24 01:51:36.594 DEBUG [http-bio-8080-exec-9]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
-2019-02-24 01:51:36.594 DEBUG [http-bio-8080-exec-9]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:51:36.594 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
-2019-02-24 01:51:36.595 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
-2019-02-24 01:51:36.595 DEBUG [http-bio-8080-exec-9]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@659e6e09]
-2019-02-24 01:51:42.556 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:51:42.557 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
-2019-02-24 01:51:42.558 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@7bf3fd43] will be managed by Spring
-2019-02-24 01:51:42.558 DEBUG [http-bio-8080-exec-10]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
-2019-02-24 01:51:42.559 DEBUG [http-bio-8080-exec-10]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:51:42.560 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
-2019-02-24 01:51:42.560 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
-2019-02-24 01:51:42.560 DEBUG [http-bio-8080-exec-10]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e1eff06]
-2019-02-24 01:53:39.731 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:53:39.836 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:53:39.865 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:53:40.058 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:53:40.103 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 01:53:50.680 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:53:50.685 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
-2019-02-24 01:53:50.693 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@8888df4] will be managed by Spring
-2019-02-24 01:53:50.698 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
-2019-02-24 01:53:50.719 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:53:50.721 DEBUG [http-bio-8080-exec-4]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -<==    Updates: 1
-2019-02-24 01:53:50.721 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
-2019-02-24 01:53:50.721 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
-2019-02-24 01:53:50.722 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
-2019-02-24 01:53:50.722 DEBUG [http-bio-8080-exec-4]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34af42c6]
-2019-02-24 01:55:42.947 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:55:43.050 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:55:43.079 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:55:43.275 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:55:43.317 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 01:55:50.976 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:55:50.982 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
-2019-02-24 01:55:50.989 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@45dca5ce] will be managed by Spring
-2019-02-24 01:55:50.994 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
-2019-02-24 01:55:51.018 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:55:51.019 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -<==    Updates: 1
-2019-02-24 01:55:51.019 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
-2019-02-24 01:55:51.020 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
-2019-02-24 01:55:51.020 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67a31b43]
-2019-02-24 01:58:03.562 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 01:58:03.669 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 01:58:03.697 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 01:58:03.899 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 01:58:03.943 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 01:58:21.452 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 01:58:21.458 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:128 -Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
-2019-02-24 01:58:21.466 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@33aa21fe] will be managed by Spring
-2019-02-24 01:58:21.470 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==>  Preparing: delete from employee where id = ? 
-2019-02-24 01:58:21.491 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 01:58:21.492 DEBUG [http-bio-8080-exec-5]albert.cui.mapper.EmployeeMapper.deleteByPrimaryKey.debug:159 -<==    Updates: 1
-2019-02-24 01:58:21.492 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.closeSqlSession:186 -Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
-2019-02-24 01:58:21.499 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCommit:284 -Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
-2019-02-24 01:58:21.499 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:310 -Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
-2019-02-24 01:58:21.500 DEBUG [http-bio-8080-exec-5]org.mybatis.spring.SqlSessionUtils.beforeCompletion:315 -Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d009323]
-2019-02-24 16:08:49.505 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:08:49.676 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:08:49.701 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:08:49.923 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:08:49.968 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:08:50.566 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:10:00.677 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:10:00.822 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:10:00.845 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:10:01.034 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:10:01.082 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:10:01.653 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:15:23.061 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:15:23.205 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:15:23.229 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:15:23.410 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:15:23.452 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:15:24.021 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:16:00.330 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:16:00.477 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:16:00.503 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:16:00.685 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:16:00.725 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:16:01.259 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:22:47.759 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:22:47.901 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:22:47.925 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:22:48.120 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:22:48.168 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:22:48.750 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:23:15.824 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:23:15.978 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:23:16.003 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:23:16.218 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:23:16.265 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:23:16.919 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:33:35.005 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:33:35.170 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:33:35.199 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:33:35.399 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:33:35.447 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:33:36.037 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:35:01.501 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:35:01.665 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:35:01.692 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:35:01.938 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:35:01.986 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:35:02.601 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:39:11.265 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:39:11.416 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:39:11.442 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:39:11.631 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:39:11.677 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:39:12.264 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:39:41.721 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:39:41.875 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:39:41.900 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:39:42.094 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:39:42.142 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:40:45.981 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:40:56.300 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:40:56.468 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:40:56.497 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:40:56.715 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:40:56.766 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:40:58.466 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:47:13.668 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:47:13.807 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:47:13.846 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:47:14.043 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:47:14.084 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:47:28.196 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 16:47:28.201 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365cf533] was not registered for synchronization because synchronization is not active
-2019-02-24 16:47:28.359 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@3c4a9e00] will not be managed by Spring
-2019-02-24 16:47:28.365 DEBUG [http-bio-8080-exec-6]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 16:47:28.387 DEBUG [http-bio-8080-exec-6]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 16:47:28.402 DEBUG [http-bio-8080-exec-6]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 16:47:28.403 DEBUG [http-bio-8080-exec-6]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@365cf533]
-2019-02-24 16:48:17.088 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:48:17.286 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:48:17.321 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:48:17.502 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:48:17.546 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:48:18.140 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:48:45.372 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:48:45.521 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:48:45.544 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:48:45.741 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:48:45.791 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:48:46.357 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:49:25.164 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:49:25.316 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:49:25.341 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:49:25.550 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:49:25.596 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:50:49.125 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:51:16.434 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:51:16.571 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:51:16.594 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:51:16.775 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:51:16.818 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:51:17.381 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:53:48.065 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:53:48.227 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:53:48.251 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:53:48.423 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:53:48.471 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:53:49.026 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:55:35.449 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:55:35.586 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:55:35.608 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:55:35.785 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:55:35.825 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:55:36.343 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 16:55:36.347 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ee9fc96] was not registered for synchronization because synchronization is not active
-2019-02-24 16:55:36.503 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@20e9df17] will not be managed by Spring
-2019-02-24 16:55:36.507 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 16:55:36.529 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 16:55:36.542 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 16:55:36.543 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7ee9fc96]
-2019-02-24 16:55:36.611 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:57:01.307 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:57:01.447 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:57:01.471 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:57:01.645 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:57:01.685 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:57:02.193 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 16:57:02.197 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4177da8a] was not registered for synchronization because synchronization is not active
-2019-02-24 16:57:02.351 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@4c2cffbe] will not be managed by Spring
-2019-02-24 16:57:02.355 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 16:57:02.377 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 16:57:02.390 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 16:57:02.391 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4177da8a]
-2019-02-24 16:57:02.457 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 16:58:10.208 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 16:58:10.364 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 16:58:10.390 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 16:58:10.573 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 16:58:10.621 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 16:58:11.175 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 16:58:11.179 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@323b722b] was not registered for synchronization because synchronization is not active
-2019-02-24 16:58:11.338 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@60248dc5] will not be managed by Spring
-2019-02-24 16:58:11.342 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 16:58:11.379 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 16:58:11.392 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 16:58:11.392 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@323b722b]
-2019-02-24 17:00:15.919 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 17:00:25.083 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 17:00:25.224 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 17:00:25.247 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 17:00:25.428 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 17:00:25.472 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 17:00:26.007 DEBUG [main]org.mybatis.spring.SqlSessionUtils.getSqlSession:97 -Creating a new SqlSession
-2019-02-24 17:00:26.011 DEBUG [main]org.mybatis.spring.SqlSessionUtils.registerSessionHolder:148 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d8fe9b5] was not registered for synchronization because synchronization is not active
-2019-02-24 17:00:26.157 DEBUG [main]org.mybatis.spring.transaction.SpringManagedTransaction.openConnection:87 -JDBC Connection [com.mysql.jdbc.JDBC4Connection@501cd445] will not be managed by Spring
-2019-02-24 17:00:26.161 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==>  Preparing: select id, name, salary, email, create_date from employee where id = ? 
-2019-02-24 17:00:26.182 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -==> Parameters: 1(Integer)
-2019-02-24 17:00:26.208 DEBUG [main]albert.cui.mapper.EmployeeMapper.selectByPrimaryKey.debug:159 -<==      Total: 1
-2019-02-24 17:00:26.209 DEBUG [main]org.mybatis.spring.SqlSessionUtils.closeSqlSession:191 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d8fe9b5]
-2019-02-24 17:00:26.268 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 17:10:26.351 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 17:10:26.510 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 17:10:26.536 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 17:10:26.754 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 17:10:26.802 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 17:11:07.772 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 17:12:56.737 DEBUG [main]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 17:12:56.873 INFO  [main]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 17:12:56.895 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 17:12:57.060 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 17:12:57.100 DEBUG [main]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 17:12:57.652 INFO  [Thread-1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
-2019-02-24 22:56:27.368 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 22:56:27.477 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 22:56:27.508 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 22:56:27.709 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 22:56:27.752 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 23:02:41.895 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 23:02:42.022 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 23:02:42.056 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 23:02:42.262 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 23:02:42.304 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 23:05:12.761 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 23:05:12.872 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 23:05:12.904 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 23:05:13.108 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 23:05:13.151 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
-2019-02-24 23:57:51.655 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-2019-02-24 23:57:51.778 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
-2019-02-24 23:57:51.810 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
-2019-02-24 23:57:52.002 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
-2019-02-24 23:57:52.044 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 21:00:01.609 INFO  [main]albert.mail.TestMail.testIoc:69 -success
+2019-02-27 21:00:01.655 DEBUG [main]albert.mail.TestMail.testIoc:70 -success
+2019-02-27 21:00:01.655 ERROR [main]albert.mail.TestMail.testIoc:71 -success
+2019-02-27 21:01:12.278 INFO  [main]albert.mail.TestMail.testIoc:69 -success
+2019-02-27 21:01:12.282 DEBUG [main]albert.mail.TestMail.testIoc:70 -success
+2019-02-27 21:01:12.282 ERROR [main]albert.mail.TestMail.testIoc:71 -success
+2019-02-27 21:04:39.868 INFO  [main]albert.mail.TestMail.testIoc:70 -success
+2019-02-27 21:04:39.871 DEBUG [main]albert.mail.TestMail.testIoc:71 -success
+2019-02-27 21:04:39.871 ERROR [main]albert.mail.TestMail.testIoc:72 -success
+2019-02-27 22:07:25.969 DEBUG [RMI TCP Connection(5)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:07:26.085 INFO  [RMI TCP Connection(5)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:07:26.118 DEBUG [RMI TCP Connection(5)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:07:26.349 DEBUG [RMI TCP Connection(5)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:07:26.394 DEBUG [RMI TCP Connection(5)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:18:17.662 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:18:17.781 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:18:17.812 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:18:17.989 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:18:18.030 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:18:18.353 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.impl.StdSchedulerFactory.instantiate:1208 -Using default implementation for ThreadExecutor
+2019-02-27 22:18:18.367 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.SchedulerSignalerImpl.<init>:61 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-02-27 22:18:18.367 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.<init>:229 -Quartz Scheduler v.2.3.0 created.
+2019-02-27 22:18:18.368 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.simpl.RAMJobStore.initialize:155 -RAMJobStore initialized.
+2019-02-27 22:18:18.369 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.initialize:294 -Scheduler meta-data: Quartz Scheduler (v2.3.0) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-02-27 22:18:18.369 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.impl.StdSchedulerFactory.instantiate:1362 -Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+2019-02-27 22:18:18.369 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.impl.StdSchedulerFactory.instantiate:1366 -Quartz scheduler version: 2.3.0
+2019-02-27 22:18:18.371 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.setJobFactory:2287 -JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@18a1c9dd
+2019-02-27 22:18:18.419 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.start:547 -Scheduler scheduler_$_NON_CLUSTERED started.
+2019-02-27 22:18:18.424 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:20.015 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:20.015 DEBUG [scheduler_Worker-1]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:20.029 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:25.014 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:25.015 DEBUG [scheduler_Worker-2]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:25.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:30.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:30.008 DEBUG [scheduler_Worker-3]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:30.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:35.002 DEBUG [scheduler_Worker-4]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:35.002 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:35.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:40.012 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:40.012 DEBUG [scheduler_Worker-5]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:40.015 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:45.001 DEBUG [scheduler_Worker-6]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:45.001 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:45.002 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:50.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:50.008 DEBUG [scheduler_Worker-7]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:50.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:18:55.009 DEBUG [scheduler_Worker-8]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:18:55.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:18:55.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:00.006 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:00.006 DEBUG [scheduler_Worker-9]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:00.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:05.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:05.010 DEBUG [scheduler_Worker-10]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:05.012 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:10.015 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:10.015 DEBUG [scheduler_Worker-1]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:10.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:15.007 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:15.008 DEBUG [scheduler_Worker-2]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:15.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:20.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:20.009 DEBUG [scheduler_Worker-3]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:20.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:25.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:25.016 DEBUG [scheduler_Worker-4]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:25.018 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:30.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:30.016 DEBUG [scheduler_Worker-5]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:30.018 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:35.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:35.011 DEBUG [scheduler_Worker-6]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:35.015 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:40.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:40.009 DEBUG [scheduler_Worker-7]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:40.012 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:45.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:45.010 DEBUG [scheduler_Worker-8]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:45.012 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:50.002 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:50.002 DEBUG [scheduler_Worker-9]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:50.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:19:55.006 DEBUG [scheduler_Worker-10]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:19:55.006 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:19:55.007 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:00.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:00.010 DEBUG [scheduler_Worker-1]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:00.012 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:05.015 DEBUG [scheduler_Worker-2]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:05.015 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:05.017 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:10.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:10.017 DEBUG [scheduler_Worker-3]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:10.019 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:15.013 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:15.014 DEBUG [scheduler_Worker-4]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:15.014 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:20.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:20.009 DEBUG [scheduler_Worker-5]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:20.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:25.014 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:25.015 DEBUG [scheduler_Worker-6]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:25.015 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:30.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:30.004 DEBUG [scheduler_Worker-7]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:30.006 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:35.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:35.008 DEBUG [scheduler_Worker-8]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:35.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:40.007 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:40.007 DEBUG [scheduler_Worker-9]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:40.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:45.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:45.010 DEBUG [scheduler_Worker-10]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:45.013 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:50.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:50.016 DEBUG [scheduler_Worker-1]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:50.018 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:20:55.017 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:20:55.017 DEBUG [scheduler_Worker-2]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:20:55.020 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:00.013 DEBUG [scheduler_Worker-3]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:00.013 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:00.016 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:05.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:05.011 DEBUG [scheduler_Worker-4]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:05.014 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:10.007 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:10.008 DEBUG [scheduler_Worker-5]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:10.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:15.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:15.009 DEBUG [scheduler_Worker-6]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:15.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:20.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:20.008 DEBUG [scheduler_Worker-7]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:20.010 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:25.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:25.009 DEBUG [scheduler_Worker-8]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:25.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:30.001 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:30.002 DEBUG [scheduler_Worker-9]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:30.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:35.002 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:35.002 DEBUG [scheduler_Worker-10]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:35.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:40.009 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:40.009 DEBUG [scheduler_Worker-1]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:40.011 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:21:45.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:21:45.004 DEBUG [scheduler_Worker-2]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:21:45.005 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:35:42.521 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:35:42.645 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:35:42.681 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:35:42.864 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:35:42.906 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:35:43.197 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-27 22:37:28.684 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:37:28.819 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:37:28.867 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:37:29.121 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:37:29.162 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:37:29.524 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-27 22:38:17.042 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:38:17.167 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:38:17.197 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:38:17.372 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:38:17.416 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:38:17.689 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-27 22:39:45.270 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:39:45.386 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:39:45.423 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:39:45.601 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:39:45.645 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:39:45.924 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-27 22:47:32.956 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:47:33.090 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:47:33.123 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:47:33.323 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:47:33.371 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:47:33.651 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.close:1658 -{dataSource-1} closed
+2019-02-27 22:48:36.279 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.apache.ibatis.logging.LogFactory.setImplementation:135 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2019-02-27 22:48:36.408 INFO  [RMI TCP Connection(3)-127.0.0.1]com.alibaba.druid.pool.DruidDataSource.init:889 -{dataSource-1} inited
+2019-02-27 22:48:36.445 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:410 -Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2019-02-27 22:48:36.652 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\EmployeeMapper.xml]'
+2019-02-27 22:48:36.695 DEBUG [RMI TCP Connection(3)-127.0.0.1]org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory:529 -Parsed mapper file: 'file [D:\Workspace\ssm\target\ssm\WEB-INF\classes\albert\cui\mapper\TempMapper.xml]'
+2019-02-27 22:48:37.055 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.impl.StdSchedulerFactory.instantiate:1208 -Using default implementation for ThreadExecutor
+2019-02-27 22:48:37.070 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.SchedulerSignalerImpl.<init>:61 -Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-02-27 22:48:37.070 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.<init>:229 -Quartz Scheduler v.2.3.0 created.
+2019-02-27 22:48:37.071 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.simpl.RAMJobStore.initialize:155 -RAMJobStore initialized.
+2019-02-27 22:48:37.072 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.initialize:294 -Scheduler meta-data: Quartz Scheduler (v2.3.0) 'scheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-02-27 22:48:37.072 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.impl.StdSchedulerFactory.instantiate:1362 -Quartz scheduler 'scheduler' initialized from an externally provided properties instance.
+2019-02-27 22:48:37.072 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.impl.StdSchedulerFactory.instantiate:1366 -Quartz scheduler version: 2.3.0
+2019-02-27 22:48:37.074 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.setJobFactory:2287 -JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@4820ff85
+2019-02-27 22:48:37.138 INFO  [RMI TCP Connection(3)-127.0.0.1]org.quartz.core.QuartzScheduler.start:547 -Scheduler scheduler_$_NON_CLUSTERED started.
+2019-02-27 22:48:37.145 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:48:40.013 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:48:40.014 DEBUG [scheduler_Worker-1]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:48:40.025 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:48:45.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:48:45.006 DEBUG [scheduler_Worker-2]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:48:45.008 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers
+2019-02-27 22:48:50.001 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 0 triggers
+2019-02-27 22:48:50.002 DEBUG [scheduler_Worker-3]org.quartz.core.JobRunShell.run:201 -Calling execute on job DEFAULT.jobDetail
+2019-02-27 22:48:50.004 DEBUG [scheduler_QuartzSchedulerThread]org.quartz.core.QuartzSchedulerThread.run:291 -batch acquisition of 1 triggers

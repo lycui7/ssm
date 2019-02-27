@@ -64,3 +64,17 @@ springmvc 配置
 ③freemarker模板
 ④velocity模板
 
+2-27
+1.Spring中bean的生命周期（重点）
+2.Spring为bean提供了两种初始化bean的方式
+①实现InitialzingBean接口，自动执行afterPropertiesSet方法
+②配置文件中指定init-method
+3.Quartz的集成 --任务调度框架
+①Job 任务类
+②JobDetail Quartz每次执行job,接收一个job实现类，运行时通过反射实例化job
+            每次执行任务都会重新创建一个job实例
+③Trigger 描述触发Job执行的时间触发规则
+④Scheduler（调度器） 代表一个Quartz独立运行容器。将Jobdetail和Trigger
+                    注册到Scheduler中
+⑤ThreadPool Scheduler使用一个线程池作为任务运行的基础设施，任务通过
+                  共享线程池中的线程提高运行效率

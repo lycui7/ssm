@@ -1,4 +1,4 @@
-package test.albert.mvc;
+package albert.mvc;
 
 import albert.cui.controller.UserController;
 import albert.cui.entity.Employee;

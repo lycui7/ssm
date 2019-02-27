@@ -1,12 +1,16 @@
-package test.albert.mail;
+package albert.mail;
 
 import albert.cui.utils.MailUtils;
+import ch.qos.logback.classic.Level;
+import ch.qos.logback.classic.util.StatusViaSLF4JLoggerFactory;
 import freemarker.template.Configuration;
 import freemarker.template.TemplateException;
 import org.apache.velocity.app.VelocityEngine;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.test.context.ContextConfiguration;
@@ -25,6 +29,7 @@ import java.io.IOException;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = {"classpath:spring-mail.xml"})
 public class TestMail {
+    private final static Logger logger = LoggerFactory.getLogger(TestMail.class);
     @Autowired
     JavaMailSender mailSender;
     @Resource
@@ -55,5 +60,16 @@ public class TestMail {
                 "C:/Users/lyCui/Pictures/Camera Roll/idea.jpg", "13255425825@163.com",
                 mailSender, velocityEngine);
         Assert.assertEquals("成功！！！","发送成功",result);
+    }
+    @Test
+    public void testIoc() throws IOException, TemplateException {
+        System.out.println(configuration);
+        FreeMarkerConfigurationFactoryBean bean = new FreeMarkerConfigurationFactoryBean();
+        Configuration configuration = bean.getObject();
+        System.out.println(configuration);
+        logger.isErrorEnabled();
+        logger.info("success");
+        logger.debug("success");
+        logger.error("success");
     }
 }
