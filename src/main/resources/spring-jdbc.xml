@@ -28,7 +28,7 @@
                 <value>classpath:albert/cui/mapper/*Mapper.xml</value>
             </list>
         </property>
-       <!-- <property name="configLocation" value="classpath:mybatis-config.xml"/>-->
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
     </bean>
     <!-- mybatis spring sqlSessionTemplate,使用时直接让spring注入即可 -->
     <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">

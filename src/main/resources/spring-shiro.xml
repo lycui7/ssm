@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+    <!--spring集成shiro-->
+    <bean id="shiroSecurityFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--安全管理器-->
+        <property name="securityManager" ref="securityManager"/>
+        <!--要求登录时的链接-->
+        <property name="loginUrl" value="/login.jsp"/>
+        <!--登录成功时的链接-->
+        <property name="successUrl" value="/success.jsp"/>
+        <!--未授权时跳转的链接-->
+        <property name="unauthorizedUrl" value="/unauthorized.jsp"/>
+        <!--shiro连接约束配置-->
+        <!--filterChainDefinitionMap key:链接URL value:存在什么条件才能访问该链接-->
+       <!-- <property name="filterChainDefinitions">
+            <value>
+                /login = authc
+                /logout = logout
+                /resource/** = anon
+            </value>
+        </property>-->
+        <!--改用自定义的动态获取资源类-->
+        <property name="filterChainDefinitionMap" ref="chainDefinitionSectionMetaSource"/>
+    </bean>
+    <!--shiro的安全管理器-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="shiroDataBaseRealm"/>
+    </bean>
+    <!--注册bean后处理器（容器级生命周期）-->
+    <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"></bean>
+    <!--启用shiro注解-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+            depends-on="lifecycleBeanPostProcessor"></bean>
+    <bean
+        class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+    <!--自定义的filterChainDefinitionMap(实现类FactoryBean接口)-->
+    <bean id="chainDefinitionSectionMetaSource" class="albert.cui.shiro.ChainDefinitionSectionMetaSource">
+        <property name="filterChainDefinitions">
+            <value>
+                /index.jsp* = anon
+                /validatecode.jsp* = anon
+                /robot/login = anon
+                /user/** = perms["robot"]
+                /login = authc
+                /logout = logout
+                /resource/** = anon
+                /abc.action = perms["staff"]
+                /* = authc
+            </value>
+        </property>
+    </bean>
+    <!--自定义的Shiro Realm(域) 通过realm来获取应用程序中的用户，角色，以及权限信息-->
+    <bean id="shiroDataBaseRealm" class="albert.cui.shiro.ShiroDataBaseRealm">
+        <!--MD5加密 credentials证书-->
+        <property name="credentialsMatcher">
+            <bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+                <property name="hashAlgorithmName" value="MD5"/>
+            </bean>
+        </property>
+    </bean>
+
+</beans>

@@ -22,6 +22,8 @@
         <jackson.version>2.9.1</jackson.version>
         <logback.version>1.2.3</logback.version>
         <quartz.version>2.3.0</quartz.version>
+        <shiro.version>1.2.2</shiro.version>
+        <project.lombok.version>1.16.20</project.lombok.version>
     </properties>
 
     <dependencies>
@@ -177,6 +179,22 @@
             <groupId>org.quartz-scheduler</groupId>
             <artifactId>quartz</artifactId>
             <version>${quartz.version}</version>
+        </dependency>
+        <!--集成Shiro安全认证框架-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-all</artifactId>
+            <version>${shiro.version}</version>
+        </dependency>
+        <!--集成Lombok-->
+       <!-- scope默认为compile
+        compile打包时需要包含进去
+        provided在打包时做了excluded-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${project.lombok.version}</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <build>

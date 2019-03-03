@@ -12,7 +12,8 @@
             classpath:applicationContext.xml,
             classpath:spring-jdbc.xml,
             classpath:spring-mail.xml,
-            classpath:spring-quartz.xml
+            classpath:spring-quartz.xml,
+            classpath:spring-shiro.xml
         </param-value>
     </context-param>
     <!--加载logback配置文件-->
@@ -20,6 +21,15 @@
         <param-name>logbackConfigLocation</param-name>
         <param-value>classpath:logback.xml</param-value>
     </context-param>
+    <!--shiro security filter-->
+    <filter>
+        <filter-name>shiroSecurityFilter</filter-name>
+        <filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+        <init-param>
+            <param-name>targetFilterLifecycle</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
     <!--字符编码过滤器-->
     <filter>
         <filter-name>characterEncodingFilter</filter-name>
@@ -33,6 +43,10 @@
             <param-value>true</param-value>
         </init-param>
     </filter>
+    <filter-mapping>
+        <filter-name>shiroSecurityFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
     <filter-mapping>
         <filter-name>characterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="albert.cui.mapper.ResourceMapper">
+    <resultMap id="BaseResultMap" type="albert.cui.entity.Resource">
+        <id column="ID" property="id" jdbcType="VARCHAR"/>
+        <result column="VALUE" property="value" jdbcType="VARCHAR"/>
+        <result column="PERMISSION" property="permission" jdbcType="VARCHAR"/>
+    </resultMap>
+<select id="getAllResources" resultMap="BaseResultMap">
+    SELECT * FROM GOERTEK.RESOURCE G
+</select>
+</mapper>
