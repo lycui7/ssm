@@ -93,3 +93,8 @@ Shiro探秘
 3.native-session
 4.动态filterChainDefinitions
 5.缓存处理
+
+3-10
+Javascript知识点
+1.this的四种绑定规则：默认绑定、隐式绑定、显示绑定、new绑定 分别对应
+  函数的四种调用方式：独立调用、方法调用、间接调用、构造函数调用

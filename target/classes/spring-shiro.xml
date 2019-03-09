@@ -46,6 +46,9 @@
     <bean id="chainDefinitionSectionMetaSource" class="albert.cui.shiro.ChainDefinitionSectionMetaSource">
         <property name="filterChainDefinitions">
             <value>
+                /learnJs.jsp = anon
+                /js/** = anon
+                /jsp/** = anon
                 /index.jsp* = anon
                 /validatecode.jsp* = anon
                 /robot/login = anon

@@ -7,32 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9ed1502-2c0c-4007-aad9-78ee58e5c34a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/controller/RobotController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/entity/Resource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/entity/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/mapper/ResourceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/mapper/ResourceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/mapper/RobotDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/mapper/RobotMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/mapper/RobotMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/shiro/ChainDefinitionSectionMetaSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/albert/cui/shiro/ShiroDataBaseRealm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/unauthorized.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/validatecode.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/learnJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jsp/jsTest/timer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/learnJs.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/dubbo-provider.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/dubbo-provider.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-jdbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-jdbc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-jdbc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-jdbc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring-shiro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-quartz.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-quartz.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-shiro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/ssm/WEB-INF/classes/spring-shiro.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/version.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -49,104 +38,39 @@
       <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="81">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroDataBaseRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/shiro/ShiroDataBaseRealm.java">
+      <file leaf-file-name="timer.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/jsTest/timer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
-              <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="186">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChainDefinitionSectionMetaSource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/shiro/ChainDefinitionSectionMetaSource.java">
+      <file leaf-file-name="timer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/timer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="228">
+              <caret line="12" column="17" selection-start-line="2" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="validatecode.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/validatecode.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="50" column="2" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="42" column="29" lean-forward="true" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#a#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RobotController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/controller/RobotController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Subject.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/subject/Subject.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="version.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="version.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/version.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="497">
+              <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -157,8 +81,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -205,7 +129,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/velocity/email.vm" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mail.xml" />
         <option value="$PROJECT_DIR$/src/main/test/test/albert/mail/TestMail.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-quartz.xml" />
         <option value="$PROJECT_DIR$/src/main/java/albert/cui/quartz/QuartzRecord.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/albert/cui/entity/Resource.java" />
@@ -224,16 +147,28 @@
         <option value="$PROJECT_DIR$/src/main/java/albert/cui/mapper/RobotMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-jdbc.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/validatecode.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/albert/cui/controller/RobotController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-quartz.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/learnJs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/learnJs.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-shiro.xml" />
         <option value="$PROJECT_DIR$/version.txt" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/timer.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/jsTest/timer.jsp" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
@@ -291,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -389,37 +325,7 @@
               <item name="ssm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="albert" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="albert" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ssm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="albert" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
@@ -427,15 +333,41 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ssm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ssm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/test/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
@@ -444,9 +376,12 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37586206" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\ssm\src\main\webapp\js" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Workspace\ssm\src\main\test\resources\velocity" />
       <recent name="D:\Workspace\ssm\src\main\test\resources\freemarker" />
@@ -624,7 +559,6 @@
       <listeners />
     </configuration>
     <configuration name="ssm" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="ssm:war exploded">
           <settings>
@@ -731,7 +665,8 @@
       <workItem from="1551023351134" duration="2327000" />
       <workItem from="1551269972200" duration="9382000" />
       <workItem from="1551593463612" duration="17211000" />
-      <workItem from="1551626226488" duration="4825000" />
+      <workItem from="1551626226488" duration="6002000" />
+      <workItem from="1552127466832" duration="17041000" />
     </task>
     <servers />
   </component>
@@ -768,7 +703,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88676000" />
+    <option name="totallyTimeSpent" value="106894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -786,13 +721,13 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4995958" weight="0.32978722" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49415204" visible="true" weight="0.25626516" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49415204" visible="true" weight="0.2603072" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" sideWeight="0.50584793" side_tool="true" weight="0.24818109" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5248227" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27304965" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -803,29 +738,29 @@
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.5620567" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2464539" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49415204" visible="true" weight="0.25626516" />
       <window_info id="Structure" order="1" sideWeight="0.50584793" side_tool="true" weight="0.24818109" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.8014184" />
-      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32978722" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info anchor="right" x="0" y="0" width="273" height="495" id="Documentation" order="6" sideWeight="0.50177306" side_tool="true" weight="0.32983023" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4995958" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5004042" side_tool="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.5620567" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.8014184" />
       <window_info anchor="right" id="Maven Projects" order="4" sideWeight="0.49822694" weight="0.32983023" />
       <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
@@ -862,82 +797,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-quartz.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/quartz/QuartzRecord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.11.RELEASE/spring-web-4.3.11.RELEASE.jar!/org/springframework/web/filter/DelegatingFilterProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.11.RELEASE/spring-beans-4.3.11.RELEASE.jar!/org/springframework/beans/factory/config/BeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/spring/LifecycleBeanPostProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.11.RELEASE/spring-aop-4.3.11.RELEASE.jar!/org/springframework/aop/framework/autoproxy/DefaultAdvisorAutoProxyCreator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/spring/security/interceptor/AuthorizationAttributeSourceAdvisor.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/lang/Character.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="6566" column="18" selection-start-line="6566" selection-start-column="18" selection-end-line="6566" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar!/org/apache/commons/lang3/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="82" column="37" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/text/Format.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="155" column="24" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_80/src.zip!/java/text/MessageFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="835" column="22" selection-start-line="835" selection-start-column="22" selection-end-line="835" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -984,10 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1525#1526#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1106,9 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,9 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="31" column="15" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,9 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1143,34 +989,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-jdbc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1211,16 +1029,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/shiro/ChainDefinitionSectionMetaSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/shiro/ShiroDataBaseRealm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -1231,17 +1039,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/RealmSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/AuthenticatingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="66" lean-forward="true" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/AuthorizingSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="16" column="65" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/SessionsSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-all/1.2.2/shiro-all-1.2.2.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/albert/cui/shiro/ChainDefinitionSectionMetaSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-quartz.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-jdbc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="94" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/learnJs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/learnJs.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="81">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/version.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="497">
+          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="2" selection-start-column="6" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/jsTest/timer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,10 +1186,10 @@
         <settings>
           <artifact-editor>
             <show-content>
-              <type id="javaee-facet-resources" />
               <type id="artifact" />
               <type id="library" />
               <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>ssm:war exploded</last-edited>

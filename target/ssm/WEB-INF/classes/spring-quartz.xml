@@ -9,26 +9,26 @@
         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
     <!--Quartz任务调度框架整合-->
     <!--将需要定时执行的任务注入Job中-->
-    <bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+    <!--<bean id="jobDetail" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
         <property name="targetObject" ref="quartzRecord"/>
-        <!--任务中需要执行的方法-->
+        &lt;!&ndash;任务中需要执行的方法&ndash;&gt;
         <property name="targetMethod" value="execute"/>
-        <!--任务依次执行，不并发-->
+        &lt;!&ndash;任务依次执行，不并发&ndash;&gt;
         <property name="concurrent" value="false"/>
     </bean>
-    <!--定义trigger触发器-->
+    &lt;!&ndash;定义trigger触发器&ndash;&gt;
     <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
-        <!--触发器触发的额作业-->
+        &lt;!&ndash;触发器触发的额作业&ndash;&gt;
         <property name="jobDetail" ref="jobDetail"/>
-        <!--cron表达式定义执行周期-->
+        &lt;!&ndash;cron表达式定义执行周期&ndash;&gt;
         <property name="cronExpression" value="0/5 * * * * ? "/>
     </bean>
-    <!--总管理类(调度器)，如果将lazy-init=false,则容器启动就会执行调度程序-->
+    &lt;!&ndash;总管理类(调度器)，如果将lazy-init=false,则容器启动就会执行调度程序&ndash;&gt;
     <bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" lazy-init="false" autowire="no">
         <property name="triggers">
             <list>
                 <ref bean="cronTrigger"/>
             </list>
         </property>
-    </bean>
+    </bean>-->
 </beans>
