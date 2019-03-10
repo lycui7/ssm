@@ -98,3 +98,13 @@ Shiro探秘
 Javascript知识点
 1.this的四种绑定规则：默认绑定、隐式绑定、显示绑定、new绑定 分别对应
   函数的四种调用方式：独立调用、方法调用、间接调用、构造函数调用
+2.闭包、解构、展开语法、剩余语法、数组操作、Generator函数、
+回调函数、Promises、Async Await
+
+3-11
+血和泪的教训：
+Oracle编辑数据时，for update 和 rowid 的区别！！！
+①for update语句运行时，会在对应行（where子句）加上行级锁，无where子句则等于全表上锁。
+若忘记提交回滚事务，则会发生锁表
+②select t.*,t.rowid from table t 运行后不会加行级锁，其它人可同时编辑数据，提交事务的时候
+瞬间完成上锁-提交-解锁，不易发生锁表。

@@ -23,7 +23,7 @@ public class UserController {
     public @ResponseBody Employee getOneEmployee(@PathVariable(value = "id") Integer id) {
        return userService.getUser(id);
     }
-    @RequestMapping(value = "/find/{id}",method = RequestMethod.GET)
+    @RequestMapping(value = "/find/{id}",method = RequestMethod.POST)
     public @ResponseBody Employee findOneEmployee(@PathVariable(value = "id") Integer id) {
         return userService.findUser(id);
     }

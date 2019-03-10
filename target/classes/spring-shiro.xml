@@ -52,7 +52,7 @@
                 /index.jsp* = anon
                 /validatecode.jsp* = anon
                 /robot/login = anon
-                /user/** = perms["robot"]
+                /user/** = anon
                 /login = authc
                 /logout = logout
                 /resource/** = anon
