@@ -16,47 +16,42 @@
         <!--登录成功时的链接-->
         <property name="successUrl" value="/success.jsp"/>
         <!--未授权时跳转的链接-->
-        <property name="unauthorizedUrl" value="/unauthorized.jsp"/>
+        <!--<property name="unauthorizedUrl" value="/unauthorized.jsp"/>-->
         <!--shiro连接约束配置-->
         <!--filterChainDefinitionMap key:链接URL value:存在什么条件才能访问该链接-->
-       <!-- <property name="filterChainDefinitions">
-            <value>
-                /login = authc
-                /logout = logout
-                /resource/** = anon
-            </value>
-        </property>-->
+        <!-- <property name="filterChainDefinitions">
+             <value>
+                 /login = authc
+                 /logout = logout
+                 /resource/** = anon
+             </value>
+         </property>-->
         <!--改用自定义的动态获取资源类-->
         <property name="filterChainDefinitionMap" ref="chainDefinitionSectionMetaSource"/>
     </bean>
     <!--shiro的安全管理器-->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
         <property name="realm" ref="shiroDataBaseRealm"/>
+        <!--shiro对ehcache的缓存管理类-->
+        <property name="cacheManager" ref="cacheManager"/>
     </bean>
     <!--注册bean后处理器（容器级生命周期）-->
     <bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"></bean>
-    <!--启用shiro注解-->
-    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
-            depends-on="lifecycleBeanPostProcessor"></bean>
-    <bean
-        class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
-        <property name="securityManager" ref="securityManager"/>
-    </bean>
     <!--自定义的filterChainDefinitionMap(实现类FactoryBean接口)-->
     <bean id="chainDefinitionSectionMetaSource" class="albert.cui.shiro.ChainDefinitionSectionMetaSource">
         <property name="filterChainDefinitions">
             <value>
+               <!-- /user/** = perms["robot"]-->
                 /learnJs.jsp = anon
                 /js/** = anon
                 /jsp/** = anon
                 /index.jsp* = anon
                 /validatecode.jsp* = anon
                 /robot/login = anon
-                /user/** = anon
+                <!--/user/** = anon-->
                 /login = authc
                 /logout = logout
                 /resource/** = anon
-                /abc.action = perms["staff"]
                 /* = authc
             </value>
         </property>
@@ -69,6 +64,8 @@
                 <property name="hashAlgorithmName" value="MD5"/>
             </bean>
         </property>
+        <!--把所有授权信息放入缓存中-->
+        <property name="authorizationCacheName" value="shiroAuthorizationCache"/>
     </bean>
 
 </beans>

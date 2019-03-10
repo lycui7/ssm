@@ -103,8 +103,11 @@ Javascript知识点
 
 3-11
 血和泪的教训：
-Oracle编辑数据时，for update 和 rowid 的区别！！！
+ --> Oracle编辑数据时，for update 和 rowid 的区别！！！
 ①for update语句运行时，会在对应行（where子句）加上行级锁，无where子句则等于全表上锁。
 若忘记提交回滚事务，则会发生锁表
 ②select t.*,t.rowid from table t 运行后不会加行级锁，其它人可同时编辑数据，提交事务的时候
 瞬间完成上锁-提交-解锁，不易发生锁表。
+ --> shiro注解在controller方法上的注意事项
+ spring容器是springmvc的父容器，（注意）spring的AOP在Spring的上下文创建时就会创建代理对象，
+ 因此如果想对controller层进行代理，需要将代理配置写在spring-mvc的配置文件中

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ehcache>
+    <!--
+           maxElementsInMemory 为缓存对象的最大数目,
+           eternal 设置是否永远不过期,
+           timeToIdleSeconds 对象处于空闲状态的最多秒数,
+           timeToLiveSeconds 对象处于缓存状态的最多秒数
+    -->
+    <diskStore path="java.io.tempdir"/>
+    <cache name="shiroAuthorizationCache" maxElementsInMemory="300" eternal="false"
+           timeToLiveSeconds="600" overflowToDisk="false" />
+    <cache name="cache_users" maxElementsInMemory="300" eternal="false"
+           timeToLiveSeconds="600" overflowToDisk="false" />
+</ehcache>

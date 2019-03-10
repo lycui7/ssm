@@ -2,6 +2,7 @@ package albert.cui.controller;
 
 import albert.cui.utils.MailUtils;
 import freemarker.template.Configuration;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.velocity.app.VelocityEngine;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -28,6 +29,7 @@ public class MailController {
     private VelocityEngine velocityEngine;
 
     @RequestMapping("send/freemarker")
+    @RequiresPermissions("staff")
     @ResponseBody
     public String sendMailByFreeMarker() {
         MailUtils utils = new MailUtils();

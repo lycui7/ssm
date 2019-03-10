@@ -45,6 +45,8 @@ public class ShiroDataBaseRealm extends AuthorizingRealm {
         }
         //创建授权信息对象
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+        //todo 现在授权信息对象有permission,但是没有动态获取role.应从数据库查出用户对应的角色。
+        info.addRole("admin");
         info.addStringPermissions(permissions);
         return info;
     }

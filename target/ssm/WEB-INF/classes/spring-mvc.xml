@@ -55,4 +55,26 @@
             </list>
         </property>
     </bean>
+    <!--启用shiro注解-->
+    <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+          depends-on="lifecycleBeanPostProcessor">
+        <!--启用cglib的代理-->
+        <property name="proxyTargetClass" value="true"/>
+    </bean>
+    <bean
+            class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+    <!--未认证和未授权异常解决器-->
+  <!--  <bean id="exceptionResolver" class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <property name="exceptionAttribute" value="ex"/>
+        <property name="exceptionMappings">
+            <props>
+                <prop key="org.apache.shiro.authz.UnauthenticatedException">unauthenticated</prop>
+                <prop key="org.apache.shiro.authz.UnauthorizedException">unauthorized</prop>
+            </props>
+        </property>
+    </bean>-->
+    <bean id="exceptionResolver1" class="albert.cui.shiro.CustomExceptionResolver" >
+    </bean>
 </beans>

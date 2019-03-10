@@ -24,6 +24,7 @@
         <quartz.version>2.3.0</quartz.version>
         <shiro.version>1.2.2</shiro.version>
         <project.lombok.version>1.16.20</project.lombok.version>
+        <ehcache.version>2.10.4</ehcache.version>
     </properties>
 
     <dependencies>
@@ -195,6 +196,12 @@
             <artifactId>lombok</artifactId>
             <version>${project.lombok.version}</version>
             <scope>provided</scope>
+        </dependency>
+        <!--集成ehcache-->
+        <dependency>
+            <groupId>net.sf.ehcache</groupId>
+            <artifactId>ehcache</artifactId>
+            <version>${ehcache.version}</version>
         </dependency>
     </dependencies>
     <build>

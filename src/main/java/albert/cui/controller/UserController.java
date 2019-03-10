@@ -2,6 +2,8 @@ package albert.cui.controller;
 
 import albert.cui.entity.Employee;
 import albert.cui.service.UserService;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
+import org.apache.shiro.authz.annotation.RequiresRoles;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
@@ -20,6 +22,8 @@ public class UserController {
     @Autowired
     UserService userService;
     @RequestMapping(value = "/get/{id}",method = RequestMethod.GET)
+   // @RequiresPermissions(value = "test")
+    //@RequiresRoles(value = "admin")
     public @ResponseBody Employee getOneEmployee(@PathVariable(value = "id") Integer id) {
        return userService.getUser(id);
     }

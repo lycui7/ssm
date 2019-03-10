@@ -5,6 +5,7 @@ import albert.cui.mapper.EmployeeDao;
 import albert.cui.mapper.EmployeeMapper;
 import albert.cui.mapper.EmployeeTemp;
 import albert.cui.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,7 +18,7 @@ import javax.annotation.Resource;
  */
 @Service
 public class UserServiceImpl implements UserService {
-    @Resource
+    @Autowired
     EmployeeDao employeeDao;
     @Resource
     EmployeeTemp employeeTemp;

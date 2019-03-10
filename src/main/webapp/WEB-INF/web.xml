@@ -13,7 +13,8 @@
             classpath:spring-jdbc.xml,
             classpath:spring-mail.xml,
             classpath:spring-quartz.xml,
-            classpath:spring-shiro.xml
+            classpath:spring-shiro.xml,
+            classpath:spring-cache.xml
         </param-value>
     </context-param>
     <!--加载logback配置文件-->
