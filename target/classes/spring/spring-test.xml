@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:tx="http://www.springframework.org/schema/tx" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+    <!--测试Spring-bean的生命周期-->
+    <!--使用p命名空间-->
+
+    <!--注册bean后处理器-->
+    <bean id="beanPostProcessor" class="albert.cui.lifecycle.MyBeanPostProcessor"></bean>
+    <!--InstantiationAwareBeanPostProcessor 接口本质是BeanPostProcessor的子接口，
+    一般我们继承Spring为其提供的适配器类InstantiationAwareBeanPostProcessor Adapter来使用它-->
+    <bean id="instantiationAwareBeanPostProcessor"
+          class="albert.cui.lifecycle.MyInstantiationAwareBeanPostProcessor"></bean>
+    <!--工厂后处理器接口实现类-->
+    <bean id="beanFactoryPostProcessor" class="albert.cui.lifecycle.MyBeanFactoryPostProcessor"></bean>
+    <!--自定义Person类-->
+    <bean id="person" class="albert.cui.entity.Person" init-method="initMethod" destroy-method="destroyMethod"
+          scope="singleton" p:name="崔璐瑶" p:age="18" p:email="lycui7@163.com">
+    </bean>
+</beans>

@@ -41,7 +41,7 @@
     <bean id="chainDefinitionSectionMetaSource" class="albert.cui.shiro.ChainDefinitionSectionMetaSource">
         <property name="filterChainDefinitions">
             <value>
-                /user/** = perms["robot"]
+               <!-- /user/** = perms["robot"]-->
                 /learnJs.jsp = anon
                 /js/** = anon
                 /jsp/** = anon
