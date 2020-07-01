@@ -21,7 +21,7 @@
         <aspectj.version>1.8.10</aspectj.version>
         <jackson.version>2.9.1</jackson.version>
         <logback.version>1.2.3</logback.version>
-        <quartz.version>2.3.0</quartz.version>
+        <quartz.version>2.3.2</quartz.version>
         <shiro.version>1.2.2</shiro.version>
         <project.lombok.version>1.16.20</project.lombok.version>
         <ehcache.version>2.10.4</ehcache.version>
